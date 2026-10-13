@@ -182,7 +182,7 @@ function getFutureDate(days: number) {
 
 export default function App() {
   const [activeNav, setActiveNav] = useState("맞춤 전략");
-  const [profile, setProfile] = useState<Profile>({ name: "김민준", school: "한빛고등학교", grade: "2학년", goal: "이번 시험 평균 85점" });
+  const [profile, setProfile] = useState<Profile>({ name: "김희주", school: "김포제일고등학교", grade: "2학년", goal: "이번 시험 평균 85점" });
   const [examName, setExamName] = useState("시험");
   const [examDate, setExamDate] = useState(getFutureDate(18));
   const [studyHours, setStudyHours] = useState(4);
